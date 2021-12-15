@@ -518,8 +518,8 @@ void parse_loglevel(int argc, char **argv, const OptionDef *options)
             fflush(report_file);
         }
     }
-    idx = locate_option(argc, argv, options, "hide_banner");
-    if (idx)
+    //idx = locate_option(argc, argv, options, "hide_banner");
+    //if (idx)
         hide_banner = 1;
 }
 
